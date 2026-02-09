@@ -1,0 +1,90 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  visibility: hidden;
+  position: relative;
+  overflow: hidden;
+}
+
+.container > div {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 20vh;
+}
+
+.one {
+  font-size: 4rem;
+}
+
+.two {
+  font-size: 1.2rem;
+}
+
+.three {
+  font-size: 3rem;
+}
+
+.text-box {
+  width: 80%;
+  margin: auto;
+  border: 2px solid #aaa;
+  padding: 10px;
+}
+
+.text-box span {
+  visibility: hidden;
+}
+
+.fake-btn {
+  margin-top: 10px;
+  display: inline-block;
+  background: #15a1ed;
+  color: white;
+  padding: 5px 10px;
+}
+
+.five p {
+  font-size: 2rem;
+}
+
+.idea-6 span {
+  font-size: 10rem;
+}
+
+.six img {
+  max-width: 40%;
+}
+
+.baloons img {
+  width: 150px;
+  position: absolute;
+}
+
+.eight svg {
+  width: 25px;
+  position: absolute;
+  visibility: hidden;
+}
+
+.wish-hbd {
+  font-size: 3rem;
+}
+
+#wishText {
+  font-size: 1.5rem;
+}
+
+#replay {
+  cursor: pointer;
+}
